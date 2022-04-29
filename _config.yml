@@ -26,7 +26,7 @@ comments:
     shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook		 : Andrea Barontini
+  facebook		 : 
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -56,11 +56,7 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-facebook:
-  username               : &Andrea Barontini
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Facebook default site image
+
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -90,7 +86,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : Andrea Barontini
+  facebook         : "Andrea Barontini"
   foursquare       :
   github           : "andreab1997"
   google_plus      :
