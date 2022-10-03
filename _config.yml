@@ -78,7 +78,7 @@ author:
   avatar           : "profile.png"
   bio              : "I am a physicist but also an amateur pianist and an even more amateur futsal player"
   location         : "Via Giulio Carcano 19"
-  employer         :
+  employer         : "University of Milan" 
   email            : "andrea.barontini@mi.infn.it"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -94,7 +94,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "Andrea Barontini"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -208,8 +208,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
