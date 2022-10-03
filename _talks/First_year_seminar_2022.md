@@ -10,5 +10,5 @@ date: 30/10/2022
 location: "Milan, Italy"
 ---
 
-[Download the slides here](https://andreab1997.github.io/files/1st_year_workshop_barontini.pdf.pdf)
+[Download the slides here](https://andreab1997.github.io/files/1st_year_workshop_barontini.pdf)
 
