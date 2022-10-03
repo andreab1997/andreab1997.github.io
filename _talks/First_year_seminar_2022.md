@@ -8,6 +8,7 @@ permalink: /talks/First_year_seminar_2022
 venue: "University of Milan, physics department"
 date: 30/10/2022
 location: "Milan, Italy"
+cvurl: 'https://andreab1997.github.io/files/1st_year_workshop_barontini.pdf'
 ---
 
 [Download the slides here](https://andreab1997.github.io/files/1st_year_workshop_barontini.pdf)
