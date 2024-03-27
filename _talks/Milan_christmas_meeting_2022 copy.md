@@ -1,5 +1,6 @@
 ---
 title: "Missing higher order uncertainties in an NNPDF fit"
+excerpt: 'A brief discussion about how theory errors can be included in PDF fits and why they should be.'
 collection: Talks and presentations
 type: "Talks"
 permalink: /talks/Milan_christmas_meeting_2022

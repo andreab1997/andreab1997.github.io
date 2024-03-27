@@ -1,5 +1,6 @@
 ---
 title: "The inclusion of theory errors in PDF fitting."
+excerpt: 'A seminar about theory errors in PDF fitting performed with machine learning techniques.'
 collection: Talks and presentations
 type: "Talks"
 permalink: /talks/Hamburg_DESY2024

@@ -1,5 +1,6 @@
 ---
 title: "The inclusion of theory errors in PDF fitting."
+excerpt: 'A brief discussion about how theory errors can be included in PDF fits and why they should be.'
 collection: Talks and presentations
 type: "Talks"
 permalink: /talks/Durham_QCDLHC2023

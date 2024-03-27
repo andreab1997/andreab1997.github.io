@@ -1,5 +1,6 @@
 ---
 title: "Extraction of the strong coupling with HERA and EIC inclusive data."
+excerpt: 'A talk about strong coupling extraction with simulated data from EIC future collider.'
 collection: Talks and presentations
 type: "Talks"
 permalink: /talks/Trento_Alpha2024

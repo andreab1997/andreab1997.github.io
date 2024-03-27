@@ -1,5 +1,6 @@
 ---
 title: "NNPDF40: Neural networks techniques for parton distribution functions evaluation."
+excerpt: 'A seminar about Neural Networks techniques applied to parton distribution functions evaluation.'
 collection: Talks and presentations
 type: "Talks"
 permalink: /talks/Trento_ALPACA2023

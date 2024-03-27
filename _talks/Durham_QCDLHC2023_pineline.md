@@ -1,5 +1,6 @@
 ---
 title: "The Pineline: industrialization of High-Energy theory predictions."
+excerpt: 'A presentation of this new set of tools for the computation of QFT theory predictions.'
 collection: Talks and presentations
 type: "Talks"
 permalink: /talks/Durham_QCDLHC2023_pineline
