@@ -1,5 +1,5 @@
 ---
-title: "Mass logarithms effects in DIS and their resummation to all orders"
+title: "Mass logarithms effects in DIS and their resummation to all orders."
 excerpt: 'A talk about the topic of my master thesis: the resummation to all orders of the mass logarthms in DIS and the proposal of a new scheme to include them.' 
 collection: Talks and presentations
 type: "Talks"

@@ -4,7 +4,7 @@ excerpt: 'A seminar about theory errors in PDF fitting performed with machine le
 collection: Talks and presentations
 type: "Talks"
 permalink: /talks/Rome_JC2024
-venue: "University of Rome "La Sapienza", physics department"
+venue: "University of Rome 'La Sapienza', physics department"
 date: 21/03/2024
 location: "Rome, Italy"
 cvurl: 'https://andreab1997.github.io/files/Rome_JC2024.pdf'
