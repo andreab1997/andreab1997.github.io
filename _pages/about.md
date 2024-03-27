@@ -31,4 +31,4 @@ During my Ph.D. I was assistant professor for several bachelor and master course
 CV
 ---
 
-You can find my curriculum vitae [here]((https://andreab1997.github.io/cv/ "CV"))
+You can find my curriculum vitae [here]((https://andreab1997.github.io/cv/ "CV")
