@@ -2,10 +2,33 @@
 title: "Welcome to my personal site!"
 excerpt: "About me"
 author_profile: true
-redirect_from: /about/
+layout: single
+redirect_from: 
+    - /about/
+    - /about.html
 permalink: /
 ---
 
-This is a simple (under-construction) set of pages speaking about me, my interests, my job and my life in general.  
-On the top menu you can find [my publications](https://andreab1997.github.io/publications/ "my publications"), [my talks](https://andreab1997.github.io/talks/ "my talks"), [my teaching activity](https://andreab1997.github.io/teaching/ "my teaching activity") and [my CV](https://andreab1997.github.io/cv/ "my CV").  
-**Have fun!** 
+I am a Ph.D. student in Theoretical Physics at the University of Milan. Here I work on the evaluation of Parton Distribution Functions (**PDF**) through
+Neural Network techniques together with my supervisor Prof. Stefano Forte and the [NNPDF](https://nnpdf.mi.infn.it/) collaboration. 
+
+Research Work
+-------------
+
+The main field in which I worked is to estimate and include theory errors, in the context of **QFT** theory predictions, in a Neural Network fit. I also worked in the realization of a set of tools to automatize the computation of such theory predictions, the **Pineline**. You can find more informations about my code projects in my [Github Page](https://github.com/andreab1997 "Github page").
+In the three years of my Ph.D. I also worked on several other projects, such as:
+* Strong coupling precise evaluation with simulated data and theory errors.
+* Consistency test for Neural Network applications (*closure tests*).
+* Implementation of a more precise scheme for Deep Inelastic Scattering (**DIS**) predictions, up to *N3LO*.
+Detailed information about my reasearch work can be found in the list of my [publications](https://andreab1997.github.io/publications/ "publications") and in the list of my [talks](https://andreab1997.github.io/talks/ "talks").
+
+Teaching activity
+-----------------
+
+During my Ph.D. I was assistant professor for several bachelor and master courses. My teaching activity consisted mostly in exercises lessons and tutoring. You can find a list of all my teaching activities [here](https://andreab1997.github.io/teaching/ "teaching activity").  
+
+
+CV
+---
+
+You can find my curriculum vitae [here]((https://andreab1997.github.io/cv/ "CV"))
