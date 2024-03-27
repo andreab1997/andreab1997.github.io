@@ -10,6 +10,10 @@ location: "Milan, Italy"
 cvurl: 'https://andreab1997.github.io/files/N3LO.pdf'
 ---
 
+[<i class="ai ai-arxiv" width="50" height="50"></i>](https://arxiv.org/abs/2402.18635){: .btn--icon}
+[<i class="ai ai-inspire" width="50" height="50"></i>](https://inspirehep.net/literature/2762925){: .btn--icon}
+
+
 Abstract
 --------
 

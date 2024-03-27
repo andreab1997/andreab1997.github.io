@@ -10,6 +10,9 @@ location: "Milan, Italy"
 cvurl: 'https://andreab1997.github.io/files/QED.pdf'
 ---
 
+[<i class="ai ai-arxiv" width="50" height="50"></i>](https://arxiv.org/abs/2401.08749){: .btn--icon}
+[<i class="ai ai-inspire" width="50" height="50"></i>](https://inspirehep.net/literature/2747770){: .btn--icon}
+
 Abstract
 --------
 
