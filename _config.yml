@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andrea Barontini"
 title_separator          : "-"
 name                     : &name "Andrea Barontini"
-description              : &description "personal description"
+description              : &description "PhD Student"
 url                      : https://andreab1997.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andreab1997/andreab1997.github.io"
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -83,6 +83,8 @@ author:
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
+  inspire          : "https://inspirehep.net/authors/2512960?ui-citation-summary=true"
+  arxiv            : "https://arxiv.org/search/?query=Andrea+Barontini&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
   codepen          :
   dribbble         :
   flickr           :
@@ -95,7 +97,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "andrea-barontini-3220631b8"
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0001-6979-6017"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
