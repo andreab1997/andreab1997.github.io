@@ -25,5 +25,5 @@ Thesis
 </object>
 
 
-
-Or you can download the pdf [here](https://andreab1997.github.io/files/Master_Thesis.pdf)
+\
+Or you can download the pdf [here](https://andreab1997.github.io/files/Master_Thesis.pdf){: .btn--research}

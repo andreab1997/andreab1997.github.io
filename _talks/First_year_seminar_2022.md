@@ -16,6 +16,6 @@ cvurl: 'https://andreab1997.github.io/files/1st_year_workshop_barontini.pdf'
     </embed>
 </object>
 
-
-Or you can download the slides [here](https://andreab1997.github.io/files/1st_year_workshop_barontini.pdf)
+\
+Or you can download the slides [here](https://andreab1997.github.io/files/1st_year_workshop_barontini.pdf){: .btn--research}
 

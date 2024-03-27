@@ -15,6 +15,6 @@ cvurl: 'https://andreab1997.github.io/files/Trento_ALPACA2023.pdf'
     </embed>
 </object>
 
-
-Or you can download the slides [here](https://andreab1997.github.io/files/Trento_ALPACA2023.pdf)
+\
+Or you can download the slides [here](https://andreab1997.github.io/files/Trento_ALPACA2023.pdf){: .btn--research}
 

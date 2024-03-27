@@ -15,6 +15,6 @@ cvurl: 'https://andreab1997.github.io/files/Durham_QCDLHC2023_pineline.pdf'
     </embed>
 </object>
 
-
-Or you can download the slides [here](https://andreab1997.github.io/files/Durham_QCDLHC2023_pineline.pdf)
+\
+Or you can download the slides [here](https://andreab1997.github.io/files/Durham_QCDLHC2023_pineline.pdf){: .btn--research}
 

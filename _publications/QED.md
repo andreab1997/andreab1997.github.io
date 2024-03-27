@@ -25,5 +25,5 @@ Paper
 </object>
 
 
-
-Or you can download the pdf [here](https://andreab1997.github.io/files/QED.pdf)
+\
+Or you can download the pdf [here](https://andreab1997.github.io/files/QED.pdf){: .btn--research}

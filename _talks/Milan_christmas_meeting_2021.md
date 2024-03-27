@@ -15,6 +15,6 @@ cvurl: 'https://andreab1997.github.io/files/Milan_Christmas_meeting_2021_slides.
     </embed>
 </object>
 
-
-Or you can download the slides [here](https://andreab1997.github.io/files/Milan_Christmas_meeting_2021_slides.pdf)
+\
+Or you can download the slides [here](https://andreab1997.github.io/files/Milan_Christmas_meeting_2021_slides.pdf){: .btn--research}
 

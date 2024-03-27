@@ -6,7 +6,7 @@ type: "Talks"
 permalink: /talks/Durham_QCDLHC2023
 venue: "University of Durham, physics department"
 date: 04/09/2023
-location: "Durham, Italy"
+location: "Durham, UK"
 cvurl: 'https://andreab1997.github.io/files/Durham_QCDLHC2023.pdf'
 ---
 <object data="https://andreab1997.github.io/files/Durham_QCDLHC2023.pdf" type="application/pdf" width="700px" height="700px">
@@ -16,5 +16,6 @@ cvurl: 'https://andreab1997.github.io/files/Durham_QCDLHC2023.pdf'
 </object>
 
 
-Or you can download the slides [here](https://andreab1997.github.io/files/Durham_QCDLHC2023.pdf)
+\
+Or you can download the slides [here](https://andreab1997.github.io/files/Durham_QCDLHC2023.pdf){: .btn--research}
 

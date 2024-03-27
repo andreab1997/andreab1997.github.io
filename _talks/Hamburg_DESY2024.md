@@ -15,6 +15,6 @@ cvurl: 'https://andreab1997.github.io/files/Hamburg_DESY2024.pdf'
     </embed>
 </object>
 
-
-Or you can download the slides [here](https://andreab1997.github.io/files/Hamburg_DESY2024.pdf)
+\
+Or you can download the slides [here](https://andreab1997.github.io/files/Hamburg_DESY2024.pdf){: .btn--research}
 
