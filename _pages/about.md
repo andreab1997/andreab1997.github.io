@@ -12,7 +12,10 @@ permalink: /
 I am a Ph.D. student in Theoretical Physics at the University of Milan. Here I work on the evaluation of Parton Distribution Functions (**PDF**) through
 Neural Network techniques together with my supervisor Prof. Stefano Forte and the [NNPDF](https://nnpdf.mi.infn.it/){: .btn--research} collaboration. 
 
-![image](https://andreab1997.github.io/files/cropped-n3pdflogo_noback.png)
+
+<img src="/files/cropped-n3pdflogo_noback.png" alt="drawing" width="200"/>
+<img src="/files/LogoNNPDF.png" alt="drawing" width="250"/>
+
 
 Research Work
 -------------
@@ -27,6 +30,9 @@ In the three years of my Ph.D. I also worked on several other projects, such as:
 
 Detailed information about my reasearch work can be found in the list of my [publications](https://andreab1997.github.io/publications/ "publications"){: .btn--research} and in the list of my [talks](https://andreab1997.github.io/talks/ "talks"){: .btn--research}.
 
+<img src="/files/NN_struct.png" alt="drawing" width="350"/>
+<img src="/files/Covmat.png" alt="drawing" width="350"/>
+
 Teaching activity
 -----------------
 
@@ -38,6 +44,8 @@ comprehensive understanding of the internal structure of a Neural Network throug
 
 You can find a list of all my teaching activities [here](https://andreab1997.github.io/teaching/ "teaching activity"){: .btn--research}.  
 
+<img src="/files/single_data_point.png" alt="drawing" width="350"/>
+<img src="/files/gluon_inc.png" alt="drawing" width="350"/>
 
 CV
 ---
