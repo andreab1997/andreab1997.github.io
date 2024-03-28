@@ -36,7 +36,7 @@ Detailed information about my reasearch work can be found in the list of my [pub
 Teaching activity
 -----------------
 
-During my Ph.D. I was assistant professor for several bachelor and master courses. My teaching activity consisted mostly in exercises lessons and tutoring.
+During my Ph.D. I was teaching assistant for several bachelor and master courses. My teaching activity consisted mostly in exercises lessons and tutoring.
 
 I also supervised three master thesis, all focused on the topic of
 *explainable AI*. The main goal of these thesis was to obtain a more 
