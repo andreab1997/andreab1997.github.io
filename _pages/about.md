@@ -47,6 +47,16 @@ You can find a list of all my teaching activities [here](https://andreab1997.git
 <img src="/files/single_data_point.png" alt="drawing" width="350"/>
 <img src="/files/gluon_inc.png" alt="drawing" width="350"/>
 
+Game Development
+----------------
+
+In my free time I love diving into new challenges and fields I don't know, even just for the sake of learning. One of the fields I love the most to learn about is game development. 
+
+I am currently following the Coursera specialization called "Unity: Game Design and Development", of which I have earned two out of four certificates. Following this course I started making my own games, which you can find in my [Itch.io profile](https://andreab1997.itch.io/).
+
+<img src="/files/poor_astro.png" alt="drawing" width="350"/>
+<img src="/files/space_shuttle.png" alt="drawing" width="350"/>
+
 CV
 ---
 
