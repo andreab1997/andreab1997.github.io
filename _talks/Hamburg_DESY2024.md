@@ -7,11 +7,11 @@ permalink: /talks/Hamburg_DESY2024
 venue: "DESY"
 date: 29/01/2024
 location: "Hamburg, Germany"
-cvurl: 'https://andreab1997.github.io/files/Hamburg_DESY2024.pdf'
+cvurl: '../files/Hamburg_DESY2024.pdf'
 ---
-<object data="https://andreab1997.github.io/files/Hamburg_DESY2024.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://andreab1997.github.io/files/Hamburg_DESY2024.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://andreab1997.github.io/files/Hamburg_DESY2024.pdf">Download PDF</a>.</p>
+<object data="../files/Hamburg_DESY2024.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="../files/Hamburg_DESY2024.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../files/Hamburg_DESY2024.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 

@@ -7,11 +7,11 @@ permalink: /talks/Rome_JC2024
 venue: "University of Rome 'La Sapienza', physics department"
 date: 21/03/2024
 location: "Rome, Italy"
-cvurl: 'https://andreab1997.github.io/files/Rome_JC2024.pdf'
+cvurl: '../Rome_JC2024.pdf'
 ---
-<object data="https://andreab1997.github.io/files/Rome_JC2024.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://andreab1997.github.io/files/Rome_JC2024.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://andreab1997.github.io/files/Rome_JC2024.pdf">Download PDF</a>.</p>
+<object data="../Rome_JC2024.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="../Rome_JC2024.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../Rome_JC2024.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
