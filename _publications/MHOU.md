@@ -21,12 +21,7 @@ We include uncertainties due to missing higher order corrections to QCD computat
 Paper
 -----
 
-<object data="https://andreab1997.github.io/files/MHOU.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://andreab1997.github.io/files/MHOU.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://andreab1997.github.io/files/MHOU.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
+<iframe src="../files/MHOU.pdf" style="width:100%; height:1000px;" frameborder="0"></iframe>
 
 \
 Or you can download the pdf [here](https://andreab1997.github.io/files/MHOU.pdf){: .btn--research}
