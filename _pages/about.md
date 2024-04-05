@@ -8,6 +8,12 @@ redirect_from:
     - /about.html
 permalink: /
 ---
+<style>
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
 
 I am a Ph.D. student in Theoretical Physics at the University of Milan. Here I work on the evaluation of Parton Distribution Functions (**PDF**) through
 Neural Network techniques together with my supervisor Prof. Stefano Forte and the [NNPDF](https://nnpdf.mi.infn.it/){: .btn--research} collaboration. 
