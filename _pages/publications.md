@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 
 
-This is the list of my publications, including title and abstract. All the papers can be seen clicking on the link.
+This is the list of my publications, including title and abstract. All the papers can be seen by clicking on the link.
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
