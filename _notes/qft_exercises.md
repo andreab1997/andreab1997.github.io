@@ -1,6 +1,5 @@
 ---
 title: "Exercises of Quantum Field Theory"
-excerpt: 'An incomplete set of QFT exercises with solutions, part of the QFT course in Milano Statale' 
 collection: Notes
 type: "note"
 permalink: /notes/qft_exercises
@@ -9,7 +8,7 @@ date: 01/10/2023
 location: "Milan, Italy"
 cvurl: 'https://andreab1997.github.io/files/qft_exercises.pdf'
 ---
-
+An incomplete set of QFT exercises with solutions, part of the QFT course in Milano Statale.
 
 Exercises
 ------
