@@ -32,7 +32,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </p>
     <div class="hero-actions">
       <a href="#games" class="btn-primary">View Game Projects</a>
-	  <a href="#ai" class="btn-ghost">View AI Projects</a>
+	  <a href="#ai" class="btn-ghost">View Code Projects</a>
       <a href="#research" class="btn-ghost">Publications</a>
     </div>
   </div>
@@ -59,90 +59,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <div class="container">
     <div class="section-header">
       <span class="section-num">02 —</span>
-      <h2 class="section-title">AI / ML Projects</h2>
+      <h2 class="section-title">Code Projects</h2>
       <div class="section-line"></div>
     </div>
 
     <div class="ai-grid">
 	  {aiProjects.map(ai => <AICard {...ai} />)}
-      <a href="https://nnpdf.github.io/pineline" class="ai-card" target="_blank">
-        <div class="ai-card-left">
-          <div class="ai-card-label">Tool · Open Source</div>
-          <div class="ai-card-title">Pineline</div>
-          <div class="ai-card-desc">An industrialisation framework for high-energy theory predictions. Harmonises inputs, standardises grid outputs, and tracks metadata — enabling large-scale PDF fit automation that previously required weeks of manual computation.</div>
-          <div class="ai-card-tags">
-            <span class="tag accent">Python</span>
-            <span class="tag">NNPDF</span>
-            <span class="tag">QCD</span>
-            <span class="tag green">Published</span>
-          </div>
-        </div>
-        <div class="ai-card-right">
-          <span class="ai-card-year">2023</span>
-          <div class="ai-card-links">
-            <span class="icon-link" title="arXiv">arX</span>
-            <span class="icon-link" title="GitHub">GH</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://arxiv.org/abs/2401.10319" class="ai-card" target="_blank">
-        <div class="ai-card-left">
-          <div class="ai-card-label">Research · Neural Networks</div>
-          <div class="ai-card-title">MHOU in PDF fits</div>
-          <div class="ai-card-desc">Missing Higher Order Uncertainties included in NNLO Parton Distribution Functions via a theory covariance matrix formalism. Demonstrates improved perturbative consistency and moderate reduction of PDF uncertainties.</div>
-          <div class="ai-card-tags">
-            <span class="tag accent">TensorFlow</span>
-            <span class="tag">NNPDF 4.0</span>
-            <span class="tag">Covariance Matrix</span>
-            <span class="tag green">Published</span>
-          </div>
-        </div>
-        <div class="ai-card-right">
-          <span class="ai-card-year">2024</span>
-          <div class="ai-card-links">
-            <span class="icon-link" title="arXiv">arX</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://arxiv.org/abs/2402.18635" class="ai-card" target="_blank">
-        <div class="ai-card-left">
-          <div class="ai-card-label">Research · Deep Learning</div>
-          <div class="ai-card-title">N³LO Parton Distributions</div>
-          <div class="ai-card-desc">Extending NNPDF4.0 to approximate next-to-next-to-next-to-leading order via neural network fits. Includes N3LO splitting function approximations, DIS corrections, and FONLL general-mass scheme at O(αs³).</div>
-          <div class="ai-card-tags">
-            <span class="tag accent">Neural Networks</span>
-            <span class="tag">QFT</span>
-            <span class="tag">LHC</span>
-            <span class="tag green">Published</span>
-          </div>
-        </div>
-        <div class="ai-card-right">
-          <span class="ai-card-year">2024</span>
-          <div class="ai-card-links">
-            <span class="icon-link" title="arXiv">arX</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="#" class="ai-card" style="border: 1px dashed var(--border);">
-        <div class="ai-card-left">
-          <div class="ai-card-label">Thesis Supervision · Explainability</div>
-          <div class="ai-card-title">Explainable AI in PDF Fits</div>
-          <div class="ai-card-desc">Supervised three master theses on diagnostic tools for understanding internal neural network structure — closure tests, activation analysis, and feature attribution inside NNPDF architectures.</div>
-          <div class="ai-card-tags">
-            <span class="tag">XAI</span>
-            <span class="tag">Interpretability</span>
-            <span class="tag amber">Thesis Supervision</span>
-          </div>
-        </div>
-        <div class="ai-card-right">
-          <span class="ai-card-year">2022–24</span>
-        </div>
-      </a>
-
-    </div>
+  </div>
   </div>
 </section>
 
@@ -157,53 +80,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <div class="pubs-list">
 	  {researches.map(research => <ResearchCard {...research} />)}
-      <div class="pub-item">
-        <div class="pub-num">— 04</div>
-        <div>
-          <div class="pub-title">The Path to N³LO Parton Distributions</div>
-          <div class="pub-venue">arXiv:2402.18635 · 2024</div>
-          <div class="pub-abstract">Extending NNPDF4.0 to aN3LO with full uncertainty treatment via theory covariance matrix formalism. Impact on LHC Higgs and Drell-Yan cross-sections assessed.</div>
-        </div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2402.18635" class="icon-link" target="_blank">arX</a>
-        </div>
-      </div>
-
-      <div class="pub-item">
-        <div class="pub-num">— 03</div>
-        <div>
-          <div class="pub-title">MHOU on NNLO Parton Distributions with Percent Accuracy</div>
-          <div class="pub-venue">arXiv:2401.10319 · 2024</div>
-          <div class="pub-abstract">Missing higher order uncertainties included in NNPDF4.0 through scale variation. Improved consistency and reduced PDF uncertainties at NNLO demonstrated.</div>
-        </div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2401.10319" class="icon-link" target="_blank">arX</a>
-        </div>
-      </div>
-
-      <div class="pub-item">
-        <div class="pub-num">— 02</div>
-        <div>
-          <div class="pub-title">Photons in the Proton: Implications for the LHC</div>
-          <div class="pub-venue">arXiv:2401.08749 · 2024</div>
-          <div class="pub-abstract">QED-evolved NNPDF4.0 set including photon PDF via LuxQED formalism. Electroweak corrections reach 5% in vector boson pair production at large invariant mass.</div>
-        </div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2401.08749" class="icon-link" target="_blank">arX</a>
-        </div>
-      </div>
-
-      <div class="pub-item">
-        <div class="pub-num">— 01</div>
-        <div>
-          <div class="pub-title">Pineline: Industrialization of High-Energy Theory Predictions</div>
-          <div class="pub-venue">arXiv:2302.12124 · 2023</div>
-          <div class="pub-abstract">Automation framework for large-scale theory prediction computation. Harmonised inputs, standardised grid outputs, and reproducible metadata across the NNPDF pipeline.</div>
-        </div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2302.12124" class="icon-link" target="_blank">arX</a>
-        </div>
-      </div>
 
     </div>
   </div>
@@ -221,7 +97,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div class="about-grid">
       <div>
         <div class="about-text">
-          <p>I am a <strong>Software engineer</strong> with a <strong>Ph.D.</strong> in Theoretical Physics, where I conducted research on neural networks as part of the NNPDF Collaboration. My background combines scientific research, machine learning, and software engineering. </p>
+          <p>I am a <strong>Software engineer</strong> with a <strong>Ph.D.</strong> in Theoretical Physics, during which I conducted research on neural networks as part of the NNPDF Collaboration. My background combines scientific research, machine learning, and software engineering. </p>
 		  <p>I currently work as a Software Engineer at Leonardo S.p.A., where I primarily focus on backend development in Python. I also lead a small development team on a full-stack project, contributing across both backend and frontend components while driving technical delivery and collaboration.</p>
 		  <p>Outside of my professional work, I am passionate about game development. I have completed numerous courses covering topics from game programming fundamentals to advanced development techniques, and I actively develop personal projects using both Unity and Unreal Engine. Through these projects, I continue to expand my skills in software architecture, gameplay programming, and interactive experiences.</p>
         </div>
@@ -282,8 +158,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <div class="about-stat-label">Talks & seminars</div>
           </div>
           <div class="about-stat">
-            <div class="about-stat-num">3</div>
-            <div class="about-stat-label">Games shipped</div>
+            <div class="about-stat-num">8<span>+</span></div>
+            <div class="about-stat-label">Games developed</div>
           </div>
           <div class="about-stat">
             <div class="about-stat-num">3</div>
@@ -333,4 +209,21 @@ document.querySelectorAll('.game-card, .ai-card, .pub-item, .about-stat').forEac
   el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
   observer.observe(el);
 });
+
+const button = document.getElementById('theme-toggle');
+
+button.addEventListener('click', () => {
+    document.body.classList.toggle('light-mode');
+
+    const isLight = document.body.classList.contains('light-mode');
+    button.textContent = isLight ? '🌙' : '☀️';
+
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+});
+
+// Restore saved preference
+if (localStorage.getItem('theme') === 'light') {
+    document.body.classList.add('light-mode');
+    button.textContent = '🌙';
+}
 </script>

@@ -3,26 +3,40 @@
 const { title, label, description, year, links, href, tags } = Astro.props;
 ---
 
-<a href={href} class="ai-card" target="_blank">
+<div class="ai-card">
+  <a href={href} class="ai-card-main-link" target="_blank" rel="noreferrer">
     <div class="ai-card-left">
-        <div class="ai-card-label">{label}</div>
-        <div class="ai-card-title">{title}</div>
-        <div class="ai-card-desc">{description}</div>
-        <div class="ai-card-tags">
-            {tags.map(tag => (
-            <span class="tag">{tag}</span>
+      <div class="ai-card-label">{label}</div>
+      <div class="ai-card-title">{title}</div>
+      <div class="ai-card-desc">{description}</div>
+
+      <div class="ai-card-tags">
+        {tags.map(tag => (
+          <span class="tag" key={tag}>{tag}</span>
         ))}
-        </div>
+      </div>
     </div>
-    <div class="ai-card-right">
-        <span class="ai-card-year">{year}</span>
-        <div class="ai-card-links">
-            {links.map(link => (
-                <span class="icon-link">{link}</span>
-            ))}
-        </div>
+  </a>
+
+  <div class="ai-card-right">
+    <span class="ai-card-year">{year}</span>
+
+    <div class="ai-card-links">
+      {Object.entries(links).map(([name, link]) => (
+        <a
+          key={name}
+          class="icon-link"
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {name}
+        </a>
+      ))}
     </div>
-</a>
+  </div>
+</div>
 
 <style>
     .ai-card {
@@ -69,10 +83,37 @@ const { title, label, description, year, links, href, tags } = Astro.props;
     }
 
     .ai-card-tags {
-        display: flex;
-        gap: 6px;
-        flex-wrap: wrap;
-    }
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+
+    padding: 0;              /* remove container box */
+    border: none;
+    background: transparent;
+}
+
+.ai-card-tags .tag {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 4px 10px;
+
+    font-size: 12px;
+    color: var(--text-muted);
+
+    border: 1px solid var(--border);
+    border-radius: 4px;
+
+    background: rgba(255, 255, 255, 0.03);
+
+    transition: all 0.2s ease;
+}
+
+.ai-card-tags .tag:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-1px);
+}
 
     .ai-card-right {
         display: flex;
@@ -111,4 +152,20 @@ const { title, label, description, year, links, href, tags } = Astro.props;
         border-color: var(--accent);
         color: var(--accent);
   }
+  .ai-card a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ai-card a:visited {
+    color: inherit;
+}
+
+.ai-card a:active {
+    color: inherit;
+}
+
+.ai-card a:focus {
+    outline: none;
+}
   </style>

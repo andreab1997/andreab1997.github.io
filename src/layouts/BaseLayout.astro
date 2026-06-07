@@ -16,11 +16,20 @@ const { title = "Andrea Barontini" } = Astro.props;
     <a href="#" class="nav-logo">AB<span>_</span></a>
     <ul class="nav-links">
         <li><a href="#games">GameDev</a></li>
-        <li><a href="#ai">AI / ML</a></li>
+        <li><a href="#ai">CodeProjects</a></li>
         <li><a href="#research">Publications</a></li>
         <li><a href="#about">About</a></li>
     </ul>
-    <a href="https://andreab1997.github.io/files/cv.pdf" class="nav-cta">CV ↗</a>
+    <div class="nav-actions">
+        <a href="https://andreab1997.github.io/AndreaBarontini_CV_Tobechanged.pdf"
+           class="nav-cta">
+            CV ↗
+        </a>
+
+        <button id="theme-toggle" class="theme-toggle">
+            ☀️
+        </button>
+    </div>
     </nav>
 
   <slot />
@@ -66,6 +75,16 @@ const { title = "Andrea Barontini" } = Astro.props;
     --display: 'Syne', sans-serif;
     --serif: 'Instrument Serif', serif;
   }
+  body.light-mode {
+    --bg: #ffffff;
+    --bg-card: #f7f7f7;
+    --bg-card-hover: rgba(99, 102, 241, 0.10);;
+    --text: #111111;
+    --text-muted: #555555;
+    --border: #dddddd;
+    --border-bright: #bbbbbb;
+    --accent: #2f9e44;
+}
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -613,4 +632,31 @@ const { title = "Andrea Barontini" } = Astro.props;
     background: var(--accent);
     color: #fff;
   }
+
+.theme-toggle {
+    width: 42px;
+    height: 42px;
+
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text);
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.2s ease;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 </style>

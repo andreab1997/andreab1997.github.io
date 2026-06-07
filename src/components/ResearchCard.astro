@@ -8,7 +8,10 @@ const { num, title, venue, abstract, arxhref} = Astro.props;
     <div>
         <div class="pub-title">{title}</div>
         <div class="pub-venue">{venue}</div>
-        <div class="pub-abstract">{abstract}</div>
+         <details class="pub-abstract">
+            <summary>Abstract</summary>
+            <p>{abstract}</p>
+        </details>
     </div>
     <div class="pub-links">
         <a href={arxhref} class="icon-link" target="_blank">arX</a>
@@ -64,6 +67,41 @@ const { num, title, venue, abstract, arxhref} = Astro.props;
     display: flex;
     gap: 8px;
     flex-shrink: 0;
-  }
 
+    align-items: center;
+}
+.pub-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 32px;
+    padding: 0 10px;
+
+    font-size: 11px;
+    font-family: var(--mono);
+    letter-spacing: 0.08em;
+
+    color: var(--text-muted);
+    text-decoration: none;
+
+    border: 1px solid var(--border);
+    border-radius: 6px;
+
+    background: rgba(255, 255, 255, 0.02);
+
+    transition: all 0.2s ease;
+}
+.pub-links a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(99, 102, 241, 0.10);
+    transform: translateY(-1px);
+}
+.pub-links a::before {
+    content: "↗";
+    margin-right: 6px;
+    font-size: 10px;
+    opacity: 0.8;
+}
 </style>

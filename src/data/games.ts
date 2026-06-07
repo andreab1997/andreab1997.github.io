@@ -27,4 +27,32 @@ export const games = [
     href: "https://andreab1997.itch.io/spaceescape",
     tags: ["Unity", "C#", "3D", "Runner"],
   },
+  {
+    title: "Action RPG",
+    description: "A 3D action RPG demo built in Unreal Engine, developed to explore its core and intermediate features.",
+    emoji: "/Games/ActionRPG.png",
+    href: "https://github.com/andreab1997/ActionRPG",
+    tags: ["Unreal", "C++", "3D", "Action", "RPG"],
+  },
+  {
+    title: "Toon Tanks",
+    description: "A 3D arcade-style shooter where you control a toon-style tank, moving and firing through combat arenas.",
+    emoji: "/Games/ToonTanks.png",
+    href: "https://github.com/andreab1997/ToonTanks",
+    tags: ["Unreal", "C++", "3D", "Shooter", "Tank"],
+  },
+  {
+    title: "Boris",
+    description: "A 3D RPG-style demo developed to learn the core features of Unreal Engine Gameplay Ability System",
+    emoji: "/Games/Boris.png",
+    href: "https://github.com/andreabarontini97-code/CrashCrouseGas",
+    tags: ["Unreal", "C++", "3D", "GAS", "Beginner"],
+  },
+  {
+    title: "Aura",
+    description: "A 3D top-down RPG-style game developed in Unreal Engine to explore advanced features of the Gameplay Ability System. Work in progress",
+    emoji: "/Games/Aura.png",
+    href: "https://github.com/andreab1997/Aura_GASCourse",
+    tags: ["Unreal", "C++", "3D", "GAS", "Intermediate"],
+  },
 ];
