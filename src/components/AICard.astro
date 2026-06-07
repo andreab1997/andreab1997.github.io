@@ -1,0 +1,114 @@
+---
+// AICard
+const { title, label, description, year, links, href, tags } = Astro.props;
+---
+
+<a href={href} class="ai-card" target="_blank">
+    <div class="ai-card-left">
+        <div class="ai-card-label">{label}</div>
+        <div class="ai-card-title">{title}</div>
+        <div class="ai-card-desc">{description}</div>
+        <div class="ai-card-tags">
+            {tags.map(tag => (
+            <span class="tag">{tag}</span>
+        ))}
+        </div>
+    </div>
+    <div class="ai-card-right">
+        <span class="ai-card-year">{year}</span>
+        <div class="ai-card-links">
+            {links.map(link => (
+                <span class="icon-link">{link}</span>
+            ))}
+        </div>
+    </div>
+</a>
+
+<style>
+    .ai-card {
+        background: var(--bg-card);
+        padding: 36px 40px;
+        border-bottom: 1px solid var(--border);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 24px;
+        align-items: start;
+        text-decoration: none;
+        transition: background 0.2s;
+    }
+
+    .ai-card:last-child { border-bottom: none; }
+    .ai-card:hover { background: var(--bg-card-hover); }
+
+    .ai-card-left {}
+
+    .ai-card-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 12px;
+    }
+
+    .ai-card-title {
+        font-family: var(--display);
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        color: var(--text);
+        margin-bottom: 10px;
+    }
+
+    .ai-card-desc {
+        font-size: 13px;
+        color: var(--text-muted);
+        line-height: 1.7;
+        max-width: 560px;
+        margin-bottom: 20px;
+    }
+
+    .ai-card-tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+
+    .ai-card-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 12px;
+        padding-top: 4px;
+    }
+
+    .ai-card-year {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--text-dim);
+        letter-spacing: 0.1em;
+    }
+
+    .ai-card-links {
+        display: flex;
+        gap: 8px;
+    }
+
+    .icon-link {
+        width: 36px;
+        height: 36px;
+        border: 1px solid var(--border-bright);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-muted);
+        text-decoration: none;
+        font-size: 14px;
+        transition: border-color 0.2s, color 0.2s;
+    }
+
+    .icon-link:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+  }
+  </style>
